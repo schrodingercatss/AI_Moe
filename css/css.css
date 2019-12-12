@@ -11,16 +11,16 @@
 	background-image: linear-gradient(to bottom, #FCF9E6, #E8BDB1, #DFA4D0);
 }
 .nav{
-	width:1920px;
+	width:1260px;
 	height:265px;
 	margin:0 auto;
 }
 .nav>img{
-	padding-top:5%;
-	padding-left:10%;
+	padding-top:8%;
+	padding-left:5%;
 }
 .content{
-	width:1920px;
+	width:1260px;
 	height:1075px;
 	margin:0 auto;
 	position:relative;
@@ -28,35 +28,35 @@
 #tu1{
 	position:absolute;
 	top:120px;
-	left:420px;
+	left:20%;
 }
 #tu2{
 	position:absolute;
-	top:630px;
-	left:320px;
+	top:600px;
+	left:10%;
 }
 #tu3{
 	position: absolute;
-	top:45px;
-	left:1390px;
+	top:70px;
+	left:75%;
 }
 #tu4{
 	position: absolute;
-	top:750px;
-	left:1295px;
+	top:720px;
+	left:70%;
 }
 #tu5{
 	position: absolute;
-	top:70px;
-	left:695px;
+	top:250px;
+	left:35%;
 }
 #tu6{
 	position: absolute;
 	top:870px;
-	left:900px;
+	left:40%;
 }
 .finally{
-	width:1920px;
+	width:1260px;
 	height:1422px;
 	margin:0 auto;
 	position:relative;
@@ -64,26 +64,26 @@
 #img1{
 	position: absolute;
 	top:10px;
-	left:360px;
+	left:10%;
 }
 #img2{
 	position: absolute;
 	top:240px;
-	left:715px;
+	left:35%;
 }
 #img3{
 	position: absolute;
 	top:415px;
-	left:420px;
+	left:15%;
 }
 #img4{
 	position: absolute;
 	top:605px;
-	left:515px;
+	left:25%;
 }
 #img5{
 	position: absolute;
-	top:20px;
-	left:71px;
+	top:490px;
+	left:2.5%;
 }
 
