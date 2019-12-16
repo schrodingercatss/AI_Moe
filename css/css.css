@@ -11,79 +11,79 @@
 	background-image: linear-gradient(to bottom, #FCF9E6, #E8BDB1, #DFA4D0);
 }
 .nav{
-	width:1260px;
-	height:265px;
+	width:1008px;
+	height:140px;
 	margin:0 auto;
 }
 .nav>img{
-	padding-top:8%;
+	padding-top:5%;
 	padding-left:5%;
 }
 .content{
-	width:1260px;
-	height:1075px;
+	width:1008px;
+	height:700px;
 	margin:0 auto;
 	position:relative;
 }
 #tu1{
 	position:absolute;
-	top:120px;
+	top:70px;
 	left:20%;
 }
 #tu2{
 	position:absolute;
-	top:600px;
+	top:320px;
 	left:10%;
 }
 #tu3{
 	position: absolute;
-	top:70px;
+	top:35px;
 	left:75%;
 }
 #tu4{
 	position: absolute;
-	top:720px;
+	top:360px;
 	left:80%;
 }
 #tu5{
 	position: absolute;
-	top:250px;
+	top:130px;
 	left:35%;
 }
 #tu6{
 	position: absolute;
-	top:870px;
+	top:500px;
 	left:40%;
 }
 .finally{
-	width:1260px;
-	height:1422px;
+	width:1008px;
+	height:780px;
 	margin:0 auto;
 	position:relative;
 }
 #img1{
 	position: absolute;
-	top:10px;
+	top:25px;
 	left:10%;
 }
 #img2{
 	position: absolute;
-	top:240px;
+	top:150px;
 	left:35%;
 }
 #img3{
 	position: absolute;
-	top:415px;
+	top:240px;
 	left:15%;
 }
 #img4{
 	position: absolute;
-	top:605px;
+	top:345px;
 	left:25%;
 }
 #img5{
 	position: absolute;
-	top:490px;
+	top:35px;
 	left:2.5%;
 }
 

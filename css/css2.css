@@ -11,114 +11,103 @@
 	background-image: linear-gradient(to bottom, #FCF9E6, #E8BDB1, #DFA4D0);
 }
 .nav{
-	width:1260px;
-	height:265px;
+	width:1008px;
+	height:140px;
 	margin:0 auto;
 }
 .nav>img{
-	padding-top:8%;
+	padding-top:5%;
 	padding-left:5%;
 }
 .content{
-	width:1260px;
-	height:1075px;
+	width:1008px;
+	height:700px;
 	margin:0 auto;
 	position:relative;
 }
 .content1{
-	width:95%;
-	height:1021px;
-	margin:0 auto;
+	width:100%;
+	height:528px;
 	border:2px solid #f0cec2;
 	background-image: linear-gradient(to bottom, #f5e6d3, #eecdbc, #e4b6b8);
-	position:relative;
+	position:absolute;
+	top:86px;
 }
 #form0{
 	width:30%;
-	height:633px;
+	height:350px;
 	position:absolute;
-	top:198px;
+	top:100px;
 	left:6%;
 }
-#tu1{
-	width:100%;
-	height:60%;
-}
 #tu2{
-	width:45%;
+	width:40%;
 	height:15%;
 	position:absolute;
-	top:75%;
+	top:85%;
 	left:30%;
 }
 #file0{
-	width:45%;
+	width:40%;
 	height:15%;
 	position:absolute;
-	top:75%;
+	top:85%;
 	left:30%;
 	opacity: 0;
 }
 #tu3{
-	width:20%;
-	height:90px;
 	position:absolute;
-	top:400px;
+	top:210px;
 	left:40%;
 }
 #tu4{
 	position:absolute;
-	top:415px;
+	top:220px;
 	left:55%;
 }
 #but0{
 	width:20%;
-	height:90px;
+	height:50px;
 	position:absolute;
-	top:400px;
+	top:210px;
 	left:40%;
 	opacity: 0;
 }
 .content2{
 	width:30%;
-	height:633px;
+	height:350px;
 	position:absolute;
-	top:198px;
+	top:100px;
 	left:65%;
 }
-#tu5{
-	position:absolute;
-	top:410px;
-	left:979px;
-}
 .finally{
-	width:1260px;
-	height:1422px;
+	width:1008px;
+	height:780px;
 	margin:0 auto;
 	position:relative;
 }
 #img1{
 	position: absolute;
-	top:10px;
+	top:25px;
 	left:10%;
 }
 #img2{
 	position: absolute;
-	top:240px;
+	top:150px;
 	left:35%;
 }
 #img3{
 	position: absolute;
-	top:415px;
+	top:240px;
 	left:15%;
 }
 #img4{
 	position: absolute;
-	top:605px;
+	top:345px;
 	left:25%;
 }
 #img5{
 	position: absolute;
-	top:490px;
+	top:35px;
 	left:2.5%;
 }
