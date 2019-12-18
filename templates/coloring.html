@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>线稿上色</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/coloring.css') }}">
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+	<div class="page">
+		<div class="nav">
+			<img src="{{ url_for('static', filename="imgs/img/1.png") }}">
+		</div>
+		<div class="content">
+			<div class="content1">
+				<form name="form0" id="form0" enctype="multipart/form-data" method="post">
+					<img src="{{ url_for('static', filename="imgs/img2/2.png") }}" id="tu1">
+					<img src="{{ url_for('static', filename="imgs/img2/5.png") }}" id="tu2">
+					<input type="file" name="file0" id="file0" multiple="multiple" />
+                    <img src="{{ url_for('static', filename="imgs/img2/4.png") }}" id="tu3">
+                    <img src="{{ url_for('static', filename="imgs/img2/心.png") }}" id="tu4">
+                    <input type="submit" name="but0" id="but0" multiple="multiple" />
+                </form>
+  				<div class="content2">
+  					<img src="{{ url_for('static', filename="imgs/img2/3.png") }}" id="tu1">
+  					<img src="{{ url_for('static', filename="imgs/img2/6.png") }}" id="tu2">
+					<input type="button" name="file1" id="file0" multiple="multiple" />
+  				</div>
+			</div>
+		</div>
+	<div class="finally">
+			<img id="img1" src="{{ url_for('static', filename="imgs/img/7.png") }}">
+			<img id="img2" src="{{ url_for('static', filename="imgs/img/8.png") }}">
+			<img id="img3" src="{{ url_for('static', filename="imgs/img/9.png") }}">
+			<img id="img4" src="{{ url_for('static', filename="imgs/img/10.png") }}">
+			<img id="img5" src="{{ url_for('static', filename="imgs/img/11.png") }}">
+		</div>
+	</div>
+	<script>
+		$("#file0").change(function(){
+		var objUrl = getObjectURL(this.files[0]) ;//获取文件信息
+		console.log("objUrl = "+objUrl);
+		if (objUrl) {
+		  	$("#tu1").attr("src", objUrl);
+		}
+		}) ;
+		function getObjectURL(file) {
+			var url = null;
+			if (window.createObjectURL!=undefined) {
+		    	url = window.createObjectURL(file) ;
+			} else if (window.URL!=undefined) { // mozilla(firefox)
+		    	url = window.URL.createObjectURL(file) ;
+			} else if (window.webkitURL!=undefined) { // webkit or chrome
+		    	url = window.webkitURL.createObjectURL(file) ;
+			}
+		return url ;
+		}
+	</script>
+</body>
+</html>

@@ -44,6 +44,11 @@
 	width:276px;
 	height:276px;
 }
+
+#tus{
+	width:276px;
+	height:276px;
+}
 #tu2{
 	width:40%;
 	height:15%;
@@ -61,20 +66,20 @@
 }
 #tu3{
 	position:absolute;
-	top:210px;
-	left:40%;
+	top:113px;
+	left:113%;
 }
 #tu4{
 	position:absolute;
-	top:220px;
-	left:55%;
+	top:124px;
+	left:162%;
 }
 #but0{
 	width:20%;
 	height:50px;
 	position:absolute;
-	top:210px;
-	left:40%;
+	top:117px;
+	left:136%;
 	opacity: 0;
 }
 .content2{
