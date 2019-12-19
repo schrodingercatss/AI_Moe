@@ -8,7 +8,7 @@ from flask import render_template
 import config
 from werkzeug.utils import secure_filename
 from model import *
-from demo import *
+from colorlization  import *
 
 
 app = Flask(__name__)

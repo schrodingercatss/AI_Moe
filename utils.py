@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 24 21:44:04 2019
-
-@author: wmy
-"""
-
 import scipy
 from glob import glob
 import numpy as np

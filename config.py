@@ -1,4 +1,4 @@
 from datetime import timedelta
 
-DEBUG = True
+DEBUG = False
 THREADED = False
